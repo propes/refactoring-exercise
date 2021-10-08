@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\RefactoringExercise.DataAccess\RefactoringExercise.DataAccess.csproj" />
+		<ProjectReference Include="..\RefactoringExercise.Domain\RefactoringExercise.Domain.csproj" />
+		<ProjectReference Include="..\RefactoringExercise.Models\RefactoringExercise.Models.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Ensure.That" Version="10.0.0" />
+		<PackageReference Include="FluentValidation" Version="9.3.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.10" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="3.1.10" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="3.1.10" />
+		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.10" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Extensions\" />
+	</ItemGroup>
+
+</Project>

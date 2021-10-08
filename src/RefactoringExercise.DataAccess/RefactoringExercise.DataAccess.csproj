@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RefactoringExercise.Domain\RefactoringExercise.Domain.csproj" />
+    <ProjectReference Include="..\RefactoringExercise.Models\RefactoringExercise.Models.csproj" />
+  </ItemGroup>
+
+</Project>
